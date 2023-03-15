@@ -1,0 +1,62 @@
+#zodiacContainer {
+    display: none;
+    background-color: rgb(147, 147, 167);
+    border-radius: 20px;
+    opacity: 80%;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: antiquewhite;
+    background-color: rgb(85, 85, 105);
+    background-image: url(space_image.jpg);
+    background-size: cover;
+}
+
+.signs {
+    background-color:grey;
+    width: 15%;
+    height: 15%;
+    color: antiquewhite;
+    border: none;
+    border-radius: 10 px;
+   
+    
+}
+#do-you-believe-in-stars- {
+    text-align: center;
+
+}
+#first-row {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content:space-evenly
+}
+
+#second-row {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content:space-evenly
+}
+
+#third-row {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content:space-evenly;
+}
+#selector {
+    text-align: center;
+}
+
+#zodiac-button {
+    font-size: 20px;
+    display:inline-flexbox;
+    opacity: 50%;
+    
+}
